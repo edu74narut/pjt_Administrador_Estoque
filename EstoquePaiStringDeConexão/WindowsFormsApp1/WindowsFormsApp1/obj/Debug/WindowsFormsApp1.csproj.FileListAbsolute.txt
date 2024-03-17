@@ -1,0 +1,16 @@
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.alterar.resources
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.criar.resources
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+D:\Projetos\EstoquePai\EstoquePaiStringDeConexão\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
