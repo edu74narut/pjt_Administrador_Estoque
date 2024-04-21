@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         { 
-        ApareceTabela(conection);
+            ApareceTabela(conection);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -104,21 +104,48 @@ namespace WindowsFormsApp1
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            string searchTerm = txt_pesquisa.Text; // Obtém o termo de pesquisa da caixa de texto
-            string query = "SELECT cod, descricao as Descrição,\r\n    EstoqueAtual as [Estoque atual],\r\n    EstoqueMaximo as [Estoque máximo],\r\n    EstoqueMinimo as [Estoque mínimo],\r\n    ValorUnitario as [Valor unitário], ValorTotal as [Valor total],\r\n    CASE\r\n        WHEN EstoqueAtual > EstoqueMaximo THEN 'ACIMA'\r\n        WHEN EstoqueAtual >= EstoqueMinimo AND EstoqueAtual <= EstoqueMaximo THEN 'IDEAL'\r\n        WHEN EstoqueAtual < EstoqueMinimo THEN 'COMPRAR'\r\n    END AS [Status capacidade] \r\nFROM dbo.TabelaItens where descricao = @searchTerm;";
+            /*string searchTerm = txt_pesquisa.Text; // Obtém o termo de pesquisa da caixa de texto
+            string query = "SELECT cod, descricao as Descrição,\r\n    EstoqueAtual as [Estoque atual],\r\n    " +
+                "EstoqueMaximo as [Estoque máximo],\r\n    EstoqueMinimo as [Estoque mínimo],\r\n    ValorUnitario as [Valor unitário], ValorTotal as " +
+                "[Valor total],\r\n    CASE\r\n        WHEN EstoqueAtual > EstoqueMaximo THEN 'ACIMA'\r\n        WHEN EstoqueAtual >= EstoqueMinimo AND " +
+                "EstoqueAtual <= EstoqueMaximo THEN 'IDEAL'\r\n        WHEN EstoqueAtual < EstoqueMinimo THEN 'COMPRAR'\r\n    END AS [Status capacidade] " +
+                "\r\nFROM dbo.TabelaItens where descricao = @searchTerm;";
+            Console.WriteLine(txt_pesquisa.Text);
             using (SqlConnection con = new SqlConnection(conection))
             {
                 con.Open();
                 using (SqlCommand command = new SqlCommand(query, con))
                 {
+                    Console.WriteLine(txt_pesquisa.Text);
                     command.Parameters.AddWithValue("@searchTerm", "%" + searchTerm + "%"); // Usamos % para pesquisa parcia
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
                     dataGridView1.DataSource = dataTable; // Exibe os resultados na DataGridView
                 }
+            }*/
+
+            string searchTerm = txt_pesquisa.Text; // Obtém o termo de pesquisa da caixa de texto
+            string query = "SELECT cod, descricao as Descrição,\r\n    EstoqueAtual as [Estoque atual],\r\n    " +
+                "EstoqueMaximo as [Estoque máximo],\r\n    EstoqueMinimo as [Estoque mínimo],\r\n    ValorUnitario as [Valor unitário], ValorTotal as " +
+                "[Valor total],\r\n    CASE\r\n        WHEN EstoqueAtual > EstoqueMaximo THEN 'ACIMA'\r\n        WHEN EstoqueAtual >= EstoqueMinimo AND " +
+                "EstoqueAtual <= EstoqueMaximo THEN 'IDEAL'\r\n        WHEN EstoqueAtual < EstoqueMinimo THEN 'COMPRAR'\r\n    END AS [Status capacidade] " +
+                "\r\nFROM dbo.TabelaItens where descricao LIKE @searchTerm;";
+            Console.WriteLine(txt_pesquisa.Text);
+            using (SqlConnection con = new SqlConnection(conection))
+            {
+                con.Open();
+                using (SqlCommand command = new SqlCommand(query, con))
+                {
+                    Console.WriteLine(txt_pesquisa.Text);
+                    command.Parameters.AddWithValue("@searchTerm", "%" + searchTerm + "%"); // Usamos % para pesquisa parcial
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+                    dataGridView1.DataSource = dataTable; // Exibe os resultados na DataGridView
+                }
             }
-            
+
         }
     }
 }

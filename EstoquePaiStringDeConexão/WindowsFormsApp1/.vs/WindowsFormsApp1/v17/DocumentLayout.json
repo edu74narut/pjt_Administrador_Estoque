@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\projetos\\estoquepai\\estoquepaistringdeconex\u00E3o\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\windowsformsapp1\\alterar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\alterar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\windowsformsapp1\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6AFD33E-7F1C-4EFB-850D-1A64CC6EAAB0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAABgAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T14:53:30.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "criar.cs [Design]",
+              "DocumentMoniker": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\criar.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\criar.cs",
+              "ToolTip": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\criar.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\criar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-19T21:13:32.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "alterar.cs [Design]",
+              "DocumentMoniker": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\alterar.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\alterar.cs",
+              "ToolTip": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\alterar.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\alterar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-17T13:25:01.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\Projetos\\EstoquePai\\EstoquePaiStringDeConex\u00E3o\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2023-10-17T12:29:35.926Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

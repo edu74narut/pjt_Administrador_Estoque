@@ -1,11 +1,9 @@
-
-
- create table TabelaItens(
+create table TabelaItens(
 cod integer primary key, descricao varchar(70), EstoqueAtual integer, EstoqueMinimo integer, EstoqueMaximo integer,
 ValorUnitario decimal(8,2));
 
 alter table TabelaItens
-	drop column ValorTotal;
+	add ValorTotal decimal(8,2);
 
 insert into TabelaItens values(01,'Botina com Cadarço n° 39',2,02,05,56.0,112.00);
  insert into TabelaItens values(02,'Botina com Cadarço n° 40',2,02,NULL,56.0,112.00);
@@ -74,19 +72,19 @@ insert into TabelaItens values(01,'Botina com Cadarço n° 39',2,02,05,56.0,112.00
  insert into TabelaItens values(65,'Suspensão MSA',229,80,480,28.35,6492.15);
  insert into TabelaItens values(66,'Talabarte',61,30,NULL,0,NULL);
 
-
 Select * from TabelaItens;
 
- SELECT
-	cod, descricao
-    EstoqueAtual,
-    EstoqueMaximo,
-    EstoqueMinimo,
-	ValorUnitario,
+SELECT cod, descricao as Descrição,
+EstoqueAtual as [Estoque atual],
+    EstoqueMaximo as [Estoque máximo],
+    EstoqueMinimo as [Estoque mínimo],
+    ValorUnitario as [Valor unitário], ValorTotal as [Valor total],
     CASE
         WHEN EstoqueAtual > EstoqueMaximo THEN 'ACIMA'
         WHEN EstoqueAtual >= EstoqueMinimo AND EstoqueAtual <= EstoqueMaximo THEN 'IDEAL'
         WHEN EstoqueAtual < EstoqueMinimo THEN 'COMPRAR'
-    END AS Status_Capacidade
-FROM TabelaItens;
+    END AS [Status capacidade] 
+FROM dbo.TabelaItens;
+
+update TabelaItens set ValorTotal = (ValorUnitario * EstoqueAtual);
 
