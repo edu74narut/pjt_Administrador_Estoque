@@ -80,6 +80,7 @@
     <Compile Include="alterar.Designer.cs">
       <DependentUpon>alterar.cs</DependentUpon>
     </Compile>
+    <Compile Include="BancoDeDados.cs" />
     <Compile Include="BancoEstoqueDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
